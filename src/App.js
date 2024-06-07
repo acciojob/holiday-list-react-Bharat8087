@@ -24,7 +24,6 @@ function App() {
     <div>
       <h1>Indian Vacation Cities</h1>
       <ol>
-        {/* Render the Indian cities in an ordered list */}
         {indianCities.map((city, index) => (
           <li key={`location${index + 1}`}>{city.name}</li>
         ))}
